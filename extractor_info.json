@@ -1,0 +1,24 @@
+{
+  "@context": "http://clowder.ncsa.illinois.edu/contexts/extractors.jsonld",
+  "name": "extractors-pdfminer",
+  "version": "0.1",
+  "description": "Extracts text from pdf files. Creates txt and html files and uploads to Clowder dataset. Uses pdfminer.six python library",
+  "author": "Mathew, Minu <minum@illinois.edu>; pdfminer.six community",
+  "contributors": [],
+  "contexts": [{}],
+  "repository": [
+    {
+      "repType": "git",
+      "repUrl": "https://github.com/clowder-framework/extractors-pdfminer"
+    }
+  ],
+  "process": {
+    "file": [
+      "application/pdf"
+    ]
+  },
+  "external_services": [],
+  "dependencies": [],
+  "bibtex": [],
+  "labels": ["Type/PDF"]
+}
