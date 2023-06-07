@@ -1,4 +1,4 @@
-# extractor
+#!/usr/bin/env python
 
 import logging
 import os
