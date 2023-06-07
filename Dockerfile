@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt --no-cache-dir
 
 WORKDIR ./
 
-CMD ["python", "extractor-pdfminer.py", "--heartbeat", "40"]
+CMD ["python", "pdfminer_extractor.py", "--heartbeat", "40"]
