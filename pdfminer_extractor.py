@@ -63,7 +63,7 @@ class ExtractorPdfminer(Extractor):
 
 if __name__ == "__main__":
     # uncomment for testing
-    #text = extract_text("tests/pdf/N18-3011.pdf")
+    #text = extract_text("/Users/minum/Documents/NCSA/Clowder/Datasets/Trial report PDFs/ard-70-1-32.pdf")
     #print(text)
 
     extractor = ExtractorPdfminer()
